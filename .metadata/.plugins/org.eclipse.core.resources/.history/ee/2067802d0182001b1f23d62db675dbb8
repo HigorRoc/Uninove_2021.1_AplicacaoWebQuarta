@@ -1,0 +1,14 @@
+package aula01;
+
+public class VetorDeObj {
+
+	public static void main(String[] args) {
+		
+		Pessoa[] pessoa = new Pessoa[3];
+		pessoa[0] = new Pessoa("Maria", "SP");
+		pessoa[1] = new Pessoa("Pedro", "SP");
+		pessoa[2] = new Pessoa("João", "SP");
+
+	}
+
+}

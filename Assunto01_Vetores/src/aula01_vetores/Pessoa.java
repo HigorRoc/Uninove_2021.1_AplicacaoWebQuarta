@@ -1,0 +1,41 @@
+package aula01_vetores;
+
+public class Pessoa {
+	
+	//Construtor Personalizado
+	public Pessoa(String nome, String estado){
+		this.nome = nome;
+		this.estado = estado;
+	}
+
+	
+	//Construtor Padrão
+	public Pessoa() {
+	}
+	
+	
+	//Propriedades ou Atributos
+	private String nome;
+	private String estado;
+	
+	
+	//Métodods Get/Set
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getEstado() {
+		return estado;
+	}
+	public void setEstado(String estado) {
+		
+		if(estado.equals("SP")) {
+		this.estado = estado;
+		}else {
+			System.out.println("Cadastro Inválido");
+			System.exit(1);
+		}
+	}
+}

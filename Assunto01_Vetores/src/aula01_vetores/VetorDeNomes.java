@@ -1,0 +1,33 @@
+package aula01_vetores;
+
+public class VetorDeNomes {
+
+	public static void main(String[] args) {
+		
+		//Declaração de vetor de String
+		//com 3 posições
+		
+		String[] nomes = new String[3];
+		nomes[0] = "João";
+		nomes[1] = "Maria";
+		nomes[2] = "Pedro";
+		
+		//1° Forma
+		System.out.println("Nome: " + nomes[0]);
+		System.out.println("Nome: " + nomes[1]);
+		System.out.println("Nome: " + nomes[2]);
+		
+		System.out.println();
+		//2° Forma
+		for(int i=0; i<nomes.length; i++) {
+			System.out.println("Nome: " + nomes[i]);
+		}
+		
+		System.out.println();
+		//3° Forma
+		for(String nome:nomes) {
+			System.out.println("Nome: " + nome);
+		}
+	}
+
+}

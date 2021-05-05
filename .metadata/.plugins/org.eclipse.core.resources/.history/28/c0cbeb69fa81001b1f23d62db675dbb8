@@ -1,0 +1,19 @@
+package aula01;
+
+public class ProgramaPrincipal {
+
+	public static void main(String[] args) {
+		
+		Pessoa pessoa01 = new Pessoa();
+		pessoa01.setNome("Higor");
+		pessoa01.setEstado("SP");
+		
+		/*
+		Pessoa pessoa01 = new Pessoa("Maria","SP");
+		System.out.println("Nome: " + pessoa01.getNome());
+		System.out.println("Estado: " + pessoa01.getEstado());
+		*/
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package aula01;
+
+public class VetorDeNomes {
+
+	public static void main(String[] args) {
+		
+		//Declaração de vetor de String
+		//com 3 posições
+		
+		String[] nomes = new String[3];
+		nomes[0] = "João";
+		nomes[1] = "Maria";
+		nomes[2] = "Pedro";
+
+	}
+
+}
