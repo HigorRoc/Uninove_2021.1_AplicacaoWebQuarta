@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Cadastro</title>
+	</head>
+	<body>
+		<form >
+			Nome: <input type="text" name="txtnome"><br><br>
+			Data de Nascimnento: <input type="date" name="txtdatanascimento"><br><br>
+			Usuário: <input type="text" name="txtusuario"><br><br>
+			Senha: <input type="password" name="txtsenha"><br><br>
+			<input type="submit" value="Save">
+		</form>
+	</body>
+</html>

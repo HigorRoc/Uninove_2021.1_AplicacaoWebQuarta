@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro</title>
+</head>
+<body>
+	<form>
+		Nome: <input type=" name="txtnome">
+		Nome: <input type="text name="txtnome">
+		Nome: <input type=" name="txtnome">
+	</form>
+</body>
+</html>
