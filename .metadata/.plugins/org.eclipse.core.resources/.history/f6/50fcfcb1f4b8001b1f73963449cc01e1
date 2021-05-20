@@ -1,0 +1,8 @@
+package br.com.turma.modelo;
+
+public class Usuario {
+	
+	private Integer codigo;
+	private String nome;
+	
+}

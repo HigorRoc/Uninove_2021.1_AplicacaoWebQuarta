@@ -1,0 +1,7 @@
+package br.com.turma.simulabanco;
+
+public class Banco {
+	
+	public static List<Usuario> usuarios = new ArrayList<>();
+	
+}
