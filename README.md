@@ -1,7 +1,7 @@
 <img src="https://github.com/HigorRoc/Uninove_2021.1/blob/main/Uninove-Logo.png" width="120" height="60">
 
 # Aplicações Web :computer:
-###  Prof. Anderson Rocha
+###  Prof. Anderson Rocha - 2021/1
 
 Este repositório será utilizado para compor todos códigos + links da discplina acima e manter tudo organizado.
 
